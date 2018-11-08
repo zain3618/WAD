@@ -1,6 +1,20 @@
 #main {
     /* add CSS here */
+    text-align: center;
+    font-size: 30px;
 }
 .pet {
     /* add CSS here */
+    border-style: solid;
+    border-color: #fa0190;
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+    border-radius: 12px;
+    cursor: grab;
+    -webkit-box-shadow: 12px 9px 44px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 9px 44px -7px rgba(0,0,0,0.75);
+    box-shadow: 12px 9px 44px -7px rgba(0,0,0,0.75);
+
 }
