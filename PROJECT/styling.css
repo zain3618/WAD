@@ -254,16 +254,18 @@ body {
     text-decoration: none;
 }
 
+
 .profile{
-    margin: 70px auto auto 145px;
-    padding-left: 60px;
+    position: center;
+
+    background-color: white;
+    color: black;
 
 }
 
 .profile img {
-    padding: auto;
-    display: inline;
+
+
     border-radius: 100%;
-    background: orangered;
     left: 45%;
 }
