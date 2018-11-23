@@ -102,7 +102,8 @@ body {
     font-family: "Segoe UI Light";
     border-radius: 5px;
     border: 2px solid white;
-    width: 150px;
+    width: auto;
+    max-width: 250px;
     height: 45px;
     margin: 10px auto;
 }
