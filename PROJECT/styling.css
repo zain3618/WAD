@@ -39,17 +39,19 @@ body {
 }
 
 .boxed {
-    margin: 10% 12% 0% 12% ;
+
     background: white;
-    height: 1000px;
-    opacity: 0.8;
+
+    margin: 200px auto;
+    width: 20%;
+    height: 40%;
+    border: 3px solid white;
+    border-radius: 25px;
+    padding: 50px;
 }
 
 .Logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 30%;
+    margin-left: 50px ;
 }
 
 .Recipes h1{
@@ -250,4 +252,18 @@ body {
     margin-top: 20px;
     cursor: pointer;
     text-decoration: none;
+}
+
+.profile{
+    margin: 70px auto auto 145px;
+    padding-left: 60px;
+
+}
+
+.profile img {
+    padding: auto;
+    display: inline;
+    border-radius: 100%;
+    background: orangered;
+    left: 45%;
 }
