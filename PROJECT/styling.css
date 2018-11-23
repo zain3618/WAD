@@ -21,6 +21,7 @@ body {
     float: right;
     list-style: none;
     margin-top: 30px;
+
 }
 
 .Nav li{
@@ -37,10 +38,37 @@ body {
 
 }
 
+.boxed {
+    margin: 10% 12% 0% 12% ;
+    background: white;
+    height: 1000px;
+    opacity: 0.8;
+}
+
 .Logo {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 30%;
+}
 
+.Recipes h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Segoe UI Light";
+}
+
+.questions{
+
+    color: white;
+    text-align: center;
+    font-family: "Segoe UI Light";
+
+}
+
+.questions h2{
+    font-size: 50px;
+    font-family: "Segoe UI Light";
+    color: white;
+    text-align: center;
 }
