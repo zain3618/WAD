@@ -107,3 +107,18 @@ body {
     height: 45px;
     margin: 10px auto;
 }
+
+.Inputs {
+    margin: auto;
+    alignment: center;
+}
+
+.Bottom-Strip {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: saddlebrown;
+    color: white;
+    text-align: center;
+}
