@@ -133,6 +133,21 @@ body {
 }
 
 
+.profile{
+    position: center;
+
+    background-color: white;
+    color: black;
+
+}
+
+.profile img {
+
+
+    border-radius: 100%;
+    left: 45%;
+}
+
 .form-area
 {
     width: 500px;
@@ -254,18 +269,3 @@ body {
     text-decoration: none;
 }
 
-
-.profile{
-    position: center;
-
-    background-color: white;
-    color: black;
-
-}
-
-.profile img {
-
-
-    border-radius: 100%;
-    left: 45%;
-}
