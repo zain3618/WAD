@@ -350,3 +350,31 @@ body {
     cursor: pointer;
     text-decoration: none;
 }
+
+
+/*Table of Contents-Index*/
+
+#toc-container
+{
+    background: #ffffff;
+    border: 7px solid #000;
+    display: inline-block;
+    font-size: 90%;
+    margin-left: 40%;
+    margin-top: 5%;
+    padding: 35px;
+    width: auto;
+}
+
+.toc-title
+{
+    font-weight: bold;
+    text-align: center;
+}
+
+#toc-container li
+{
+    list-style: none;
+    text-decoration: none;
+    font-size: 200%;
+}
