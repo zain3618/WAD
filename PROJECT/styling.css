@@ -13,6 +13,7 @@ body {
     border-style: solid;
     border-color: saddlebrown;
     background-color: saddlebrown;
+    z-index: -1; position:relative;
 }
 
 .Nav{
@@ -24,6 +25,7 @@ body {
 
 .Nav li{
     display: inline-block ;
+    color: white;
 }
 
 .Nav li a{
@@ -32,5 +34,13 @@ body {
     padding: 5px 20px;
     font-family: Roboto,sans-serif;
     font-size: 15px;
+
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
 
 }
