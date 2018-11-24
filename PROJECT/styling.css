@@ -132,19 +132,26 @@ body {
 
 
 .profile{
-    position: center;
 
-    background-color: white;
-    color: black;
-
+    width: 450px;
+    height: 260px;
+    margin: 40px auto 0;
+    position: relative;
+    background: #fffffff0;
+    text-align: center;
+    padding: 35px;
+    border: 5px solid #8b4513a6;
+    -webkit-border-radius: 70px 0 70px 0;
+    -moz-border-radius: 70px 0 70px 0;
+    border-radius: 70px 0 70px 0;
 }
 
 .profile img {
-
-
+    max-width: 165px;
     border-radius: 100%;
     left: 45%;
 }
+
 
 .form-area
 {
@@ -391,4 +398,78 @@ body {
     list-style: none;
     text-decoration: none;
     font-size: 200%;
+}
+
+#socialfb
+{
+    max-width: 50px;
+    list-style: none;
+    text-decoration: none;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    float: left;
+}
+
+#socialinsta
+{
+    max-width: 50px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    float: left;
+}
+
+#socialtwitter
+{
+    max-width: 50px;
+    list-style: none;
+    text-decoration: none;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    float: left;
+    padding-left: 5px;
+}
+
+
+#socialfb2
+{
+    max-width: 50px;
+    list-style: none;
+    text-decoration: none;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    float: right;
+}
+
+#socialinsta2
+{
+    max-width: 50px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    float: right;
+}
+
+#socialtwitter2
+{
+    max-width: 50px;
+    list-style: none;
+    text-decoration: none;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    float: right;
+    padding-right: 5px;
+}
+
+.profile h5{
+    display: inline-block;
+}
+
+.profile ul
+{
+    list-style: none;
 }
