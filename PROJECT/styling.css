@@ -46,10 +46,7 @@ body {
 }
 
 .Logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 30%;
+    margin-left: 10%;
 }
 
 .Recipes h1{
@@ -277,8 +274,6 @@ body {
 }
 
 
-
-
 /*Forgetpassword*/
 
 
@@ -482,4 +477,11 @@ body {
 .profile ul
 {
     list-style: none;
+}
+
+
+.container h2
+{
+    color: white;
+    font-family: "Segoe UI Light";
 }
