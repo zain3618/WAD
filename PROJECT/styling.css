@@ -166,12 +166,14 @@ body {
     -webkit-border-radius: 70px 0 70px 0;
     -moz-border-radius: 70px 0 70px 0;
     border-radius: 70px 0 70px 0;
+    font-family: "Segoe UI Light";
 }
 
 .form-area h2
 {
     margin-bottom: 45px;
     color: #000;
+    font-family: "Segoe UI Light";
 }
 
 .image-area
@@ -391,13 +393,20 @@ body {
 {
     font-weight: bold;
     text-align: center;
+    font-size: 150%;
 }
 
 #toc-container li
 {
+    font-family: "Segoe UI Light";
     list-style: none;
     text-decoration: none;
     font-size: 200%;
+}
+
+.toc-list li a
+{
+    text-decoration: none;
 }
 
 #socialfb
@@ -467,6 +476,7 @@ body {
 
 .profile h5{
     display: inline-block;
+    font-family: "Segoe UI Light";
 }
 
 .profile ul
