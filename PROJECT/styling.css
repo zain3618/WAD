@@ -48,8 +48,8 @@ body {
 .Logo {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-left: 30%;
+    justify-content: left;
+    margin-left: 20%;
 }
 
 .Recipes h1{
@@ -330,6 +330,11 @@ body {
     width: 83%;
     padding: 3px;
     padding-left: 6px;
+}
+
+.container h2{
+
+    color: white;
 }
 
 .fpinput
