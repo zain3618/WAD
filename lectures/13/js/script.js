@@ -28,10 +28,48 @@ displayCurrentQuestion();
 document.getElementById("quiz-message").style.display = 'none';
 function displayNext() {
     /*Write your code here */
+
+    var Answer = document.querySelector("input[type = radio]:checked");
+
+    if(Answer == null)
+    {
+        var msg_relay = document.getElementById("quiz-message");
+        msg_relay.style.color = 'red';
+        msg_relay.style.display = "block";
+        msg_relay.innerText = "No option was Selected";
+    }
+    else if(Answer.question[currentQuestion].correctAnswer )
+    {
+        correctAnswers++;
+        currentQuestion++;
+/*
+        var cid = document.getElementById("choice-list");
+        cid.innerHTML = '';*/
+        displayCurrentQuestion();
+    }
+    else
+    {
+        currentQuestion++;
+        displayCurrentQuestion();
+    }
+
+
 }
 
 function displayCurrentQuestion() {
     /*Write your code here */
+
+    var qid = document.getElementById("question");
+
+    qid.innerHTML = '<p>' + questions[currentQuestion].question +  '</p>';
+
+    var cid = document.getElementById("choice-list");
+
+    for(var i = 0 ; i < questions[currentQuestion].choices.length ; i++)
+    {
+        cid.innerHTML += '<li>'+ '<input type="radio" name="checked">' + questions[currentQuestion].choices[i] +'</li>'
+    }
+
 }
 
 function resetQuiz() {
