@@ -38,22 +38,22 @@ function displayNext() {
         msg_relay.style.display = "block";
         msg_relay.innerText = "No option was Selected";
     }
-    else if(Answer.question[currentQuestion].correctAnswer )
-    {
-        correctAnswers++;
+/*    else if(Answer.question[currentQuestion].correctAnswer )
+    {*/
+        /*correctAnswers++;*/
         currentQuestion++;
 /*
         var cid = document.getElementById("choice-list");
         cid.innerHTML = '';*/
         displayCurrentQuestion();
-    }
+  /*  }
     else
     {
         currentQuestion++;
         displayCurrentQuestion();
     }
 
-
+*/
 }
 
 function displayCurrentQuestion() {
