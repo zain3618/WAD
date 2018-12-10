@@ -32,7 +32,7 @@ function Action(K) {
 
     var depMsg = document.getElementById("deposit-msg");
     var credMsg = document.getElementById("withdraw-msg");
-    
+
     if(K.keyCode == '13')
         if()
         {
