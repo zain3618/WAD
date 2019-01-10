@@ -3,12 +3,12 @@
 //============================================
 
 
-/*var todos = [];
+var todos = [];
 function add() {
     var task = document.getElementById("task").value;
     todos.push(task);
     document.getElementById('todos').innerText = todos;
-}*/
+}
 
 
 //============================================

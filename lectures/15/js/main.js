@@ -48,7 +48,7 @@ var savingsAccount = {
         var amountTd = document.createElement("td");
         amountTd.innerHTML = amount;
         row.appendChild(dateTd);
-        row.appendChild(typeTd);
+     //   row.appendChild(typeTd);
         row.appendChild(amountTd);
         table.appendChild(row);
     }

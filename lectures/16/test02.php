@@ -361,3 +361,18 @@
 <p><b>Note:</b> The variable is still local to the function.</p>
 
 
+<?php
+
+function loop() {
+    $x[] = array("red","blue","orange");
+
+    for($i = 0 ; $i < 3;$i++ )
+    {
+        echo $x[$i];
+    }
+}
+
+
+loop();
+
+?>
